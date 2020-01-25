@@ -1,0 +1,37 @@
+{
+  "name": "hapi-git-repo-info",
+  "version": "1.0.0",
+  "description": "Get git repo information like current branch, last committer, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksankaran/hapi-git-repo-info.git"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "git",
+    "repo",
+    "branch",
+    "committer",
+    "commit"
+  ],
+  "author": "ksankaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksankaran/hapi-git-repo-info/issues"
+  },
+  "homepage": "https://github.com/ksankaran/hapi-git-repo-info#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  },
+  "dependencies": {
+    "git-repo-info": "^2.1.1"
+  },
+  "engines" : { "node" : ">=12.0.0" }
+}
